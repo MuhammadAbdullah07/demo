@@ -1,0 +1,138 @@
+body {
+	background: #e8e8e8;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(/images/pexels-jessica-bryant-1370704.jpg);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	overflow: hidden;
+}
+.navbar-dark {
+	background-color: transparent !important;
+}
+.navbar-dark .navbar-brand {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.navbar-dark .navbar-brand span {
+	background: #198754;
+	color: #000;
+	padding: 5px;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: #fff;
+	text-transform: uppercase;
+}
+.form-area {
+	margin-top: 6%;
+}
+.row.single-form {
+	box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
+}
+.left {
+	background: #198754;
+	padding: 162px 95px;
+}
+.left h2 {
+	font-family: poppins;
+	color: #fff;
+	font-weight: 800;
+	font-size: 48px;
+}
+.left h2 span {
+    font-size: 30;
+	font-weight: 50;
+}
+.left i {
+	position: absolute;
+	font-size: 80px;
+	right: -27px;
+	top: 40%;
+	color: #198754;
+}
+.single-form{
+    background: #fff;
+}
+.right {
+	padding: 70px 65px;
+	position: relative;
+}
+
+.right p{
+    font-size:14px;
+}
+.custom-toggler{
+    border-color: white;
+}
+.custom-toggler .navbar-toggler-icon {
+background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+
+/*responsive*/
+
+@media (min-width:768px) and (max-width:991px){
+	body{
+		overflow: scroll;
+	}
+	.navbar-nav{
+		background-color: black;
+	}
+    .left {
+        background: #198754;
+        padding: 20px 15px;
+    }
+    .left h2 {
+        font-family: poppins;
+        color: #fff;
+        font-weight: 800;
+        font-size: 25px;
+    }
+    .left h2 span {
+        font-size: 30;
+        font-weight: 50;
+    }    
+    .left i {
+	bottom: -82px;
+	transform: rotate(90deg);
+	right: 50%;
+}
+.right {
+	padding: 50px 40px;
+	position: relative;
+}
+
+.right p{
+    padding: 2%;
+    font-size:14px;
+}
+
+}
+
+@media (max-width:767px){
+	body{
+		overflow: scroll;
+	}
+    .left {
+  padding: 90px 15px;
+  text-align: center;
+}
+.left h2 {
+  font-size: 25px;
+}
+.right {
+  padding: 25px;
+}
+.left i {
+  bottom: -52px;
+  transform: rotate(90deg);
+  right: 46%;
+}
+   
+}
+
+
+
+
