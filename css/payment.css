@@ -109,10 +109,37 @@ body {
 	.navbar-dark {
 		background-color: #333;
 	}
+    .navbar{
+		padding: 5%;
+	}
+	.navbar-dark .navbar-brand {
+		color: #fff;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 40px;
+	}
+	.navbar-dark .navbar-brand span {
+		background: #198754;
+		color: #000;
+		padding: 5px;
+	}
+	.navbar-dark .navbar-nav .nav-link {
+		color: #fff;
+		text-transform: uppercase;
+	}
+	.navbar-dark {
+		background-color: #333;
+	}
 	.navbar-dark .navbar-nav .nav-link {
 		background: #333;
 		text-align: center;
 	}
+	.navbar-expand-lg .navbar-nav .nav-link {
+		font-size: 25px;
+	  }
+      .price{
+        padding-top: 5%;
+      }
     .main-content{
         height: auto;
         margin: auto;
@@ -128,7 +155,6 @@ body {
         margin-bottom: 15px;
         margin-right: 2%;
         box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
-        height: 250px;
         overflow: hidden;
         flex: 1;    
     }
