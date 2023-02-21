@@ -1,6 +1,6 @@
 body {
 	background: #e8e8e8;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(/images/pexels-jessica-bryant-1370704.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url('https://images.pexels.com/photos/1370704/pexels-photo-1370704.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
 	height: 100vh;
 	-webkit-background-size: cover;
 	background-size: cover;
