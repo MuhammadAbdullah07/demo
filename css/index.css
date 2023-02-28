@@ -9,6 +9,9 @@ body {
 	text-transform: uppercase;
 	font-weight: 700;
 }
+.bgcolor{
+	background-color: #198754;
+}
 .navbar-dark .navbar-brand span {
 	background: #198754;
 	color: #000;
@@ -19,7 +22,7 @@ body {
 	text-transform: uppercase;
 }
 header {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url('https://images.pexels.com/photos/1370704/pexels-photo-1370704.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url('/images/screencapture-rudnenclave-2023-02-28-19_55_46.png');
 	height: 100vh;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -62,6 +65,9 @@ header {
 .text-color{
 	color: #198754;
 	font-weight: 1000;
+}
+.size{
+	font-size: 14px;
 }
 .flex-controller{
 	display: flex;
@@ -178,6 +184,9 @@ header {
 		font-size: 35px;
 		padding-bottom: 5%;
 		padding-top: 2%;
+	}
+	.size{
+		font-size: 35px;
 	}
 	.flex-controller .col1{
 		flex: 1;

@@ -1,10 +1,17 @@
 body {
 	font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url('https://images.pexels.com/photos/1370704/pexels-photo-1370704.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url('/images/screencapture-rudnenclave-2023-02-28-19_55_46.png');
 	height: 100vh;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
+    overflow: hidden;
+}
+.bgcolor{
+	background-color: #198754;
+}
+.navbar-toggler{
+    border: white;
 }
 .navbar-dark {
 	background-color: transparent !important;
@@ -62,10 +69,10 @@ body {
 .main-content .box{
     position: relative;
     cursor: pointer;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     margin-right: 2%;
     box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
-    height: 250px;
+    height: 350px;
     overflow: hidden;
     flex: 1;    
 }
@@ -88,27 +95,15 @@ body {
     height: 100%;
     object-fit:fill;
 }
-.main-content .box .img-text {
-	position: absolute;
-    display: flex;
-	justify-content: center;
-	align-items: center;
-	background: rgba(255,255,255,0.9);
-	width: 100%;
-	height: 100%;
-	top: 0;
-	right: 100%;
-	transition: all 0.5s ease-in-out;	
-}
-.main-content .box:hover .img-text{
-    top: 0;
-    right: 0;
-}
+
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.navbar-dark {
 		background-color: #333;
 	}
+    body{
+        overflow: scroll;
+    }
     .navbar{
 		padding: 5%;
 	}
@@ -150,6 +145,7 @@ body {
         align-items: center;
     }
     .main-content .box{
+        background-color: aqua;
         position: relative;
         cursor: pointer;
         margin-bottom: 15px;
@@ -177,22 +173,7 @@ body {
         height: 100%;
         object-fit: cover;
     }
-    .main-content .box .img-text {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: rgba(255,255,255,0.9);
-        width: 100%;
-        height: 100%;
-        top: 0;
-        right: 100%;
-        transition: all 0.5s ease-in-out;	
-    }
-    .main-content .box:hover .img-text{
-        top: 0;
-        right: 0;
-    }
+    
 	
 }
 
@@ -200,6 +181,9 @@ body {
 	.navbar-dark {
 		background-color: #333;
 	}
+    body{
+        overflow: scroll;
+    }
 	.navbar-dark .navbar-nav .nav-link {
 		background: #333;
 		text-align: center;
@@ -241,21 +225,5 @@ body {
         width: 100%;
         height: 100%;
         object-fit: cover;
-    }
-    .main-content .box .img-text {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: rgba(255,255,255,0.9);
-        width: 100%;
-        height: 100%;
-        top: 0;
-        right: 100%;
-        transition: all 0.5s ease-in-out;	
-    }
-    .main-content .box:hover .img-text{
-        top: 0;
-        right: 0;
     }
 }
